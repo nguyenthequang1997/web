@@ -1,0 +1,20 @@
+$(document).ready(function(){
+  $("#log").click(function(){
+    $("#login").fadeIn(1000);
+  });
+  $(".close").click(function(){
+    $("#login").fadeOut(1000);
+  });
+   $("#res").click(function(){
+    $("#register").fadeIn(1000);
+  });
+  $(".close").click(function(){
+    $("#register").fadeOut(1000);
+  });
+   $("#car").click(function(){
+    $("#cartshop").fadeIn(1000);
+  });
+  $(".close").click(function(){
+    $("#cartshop").fadeOut(1000);
+  });
+});
